@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Td507</string>
+    <string name="add_photo">add_photo</string>
+    <string name="achat_fournitures">Achat fournitures</string>
+    <string name="mykount">myKount</string>
+    <string name="pour">Pour</string>
+    <string name="expense_name">Nom</string>
+    <string name="expense_category">Catégorie</string>
+    <string name="expense_montant">Montant</string>
+    <string name="expense_date">Date</string>
+    <string name="expense_auteur">Auteur</string>
+
+    <string name="expense_dialog_name">Ajouter une dépense</string>
+    <string name="expense_dialog_edit">Modifier une dépense</string>
+    <string name="expense_dialog_confirm">Valider</string>
+    <string name="expense_dialog_cancel">Annuler</string>
+
+    <string name="category_shopping">Course</string>
+    <string name="category_other">Autre</string>
+</resources>
