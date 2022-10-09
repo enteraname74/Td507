@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.td507.R
+import com.example.td507.model.Expense
+import com.example.td507.storage.ExpenseStorage
 
 class ExpenseAdapter: RecyclerView.Adapter<ExpenseAdapter.ExpenseHolder>(){
 
@@ -23,6 +25,7 @@ class ExpenseAdapter: RecyclerView.Adapter<ExpenseAdapter.ExpenseHolder>(){
     }
 
     override fun onBindViewHolder(holder: ExpenseHolder, position: Int) {
+        //val expense = ExpenseStorage.get(context).findAll().get(position)
         holder.category.setImageResource(R.drawable.ic_baseline_category_24)
         holder.name.text = "Ma dépense"
         holder.amount.text = "23.50"

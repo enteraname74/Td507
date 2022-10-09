@@ -69,10 +69,12 @@ abstract class FileStorage<T>(
     }
 
     override fun update(id: Int, obj: T) {
-        TODO("Not yet implemented")
+        data.put(id, obj)
+        write()
     }
 
     override fun delete(id: Int) {
-        TODO("Not yet implemented")
+        data.remove(id)
+        write()
     }
 }

@@ -17,4 +17,9 @@
 
     <string name="category_shopping">Course</string>
     <string name="category_other">Autre</string>
+    <string name="storage_choice">Storage choice</string>
+    <string name="storage_none">Storage none</string>
+    <string name="storage_data_base">Storage Data Base</string>
+    <string name="storage_file_json">Storage file JSON</string>
+    <string name="storage_file_csv">Storage file CSV</string>
 </resources>
